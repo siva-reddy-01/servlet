@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+    <servlet-name>GetValuesServlet</servlet-name>
+    <servlet-class>com.klef.GetValuesServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>GetValuesServlet</servlet-name>
+    <url-pattern>/servlet</url-pattern>  <!-- This is the URL of the servlet. -->
+</servlet-mapping>
+</web-app>
